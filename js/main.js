@@ -106,3 +106,12 @@ function setREVStartSize(e) {
         console.log("Failure at Presize of Slider:" + e);
     }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const marqueeWrap = document.querySelector(".marquee-list-wrap");
+    const marqueeList = document.querySelector(".marquee-list");
+
+    // Clone items for infinite scroll effect
+    const clone = marqueeList.cloneNode(true);
+    marqueeWrap.appendChild(clone);
+});

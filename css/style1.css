@@ -34392,7 +34392,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-element,.elementor-lightbox {
-    --swiper-theme-color: #000;
+    --swiper-theme-color: #171717;
     --swiper-navigation-size: 44px;
     --swiper-pagination-bullet-size: 6px;
     --swiper-pagination-bullet-horizontal-gap: 6px

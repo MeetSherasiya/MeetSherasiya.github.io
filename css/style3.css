@@ -3,14 +3,16 @@
 }
 
 .elementor-21460 .elementor-element.elementor-element-4f4e48d:not(.elementor-motion-effects-element-type-background),.elementor-21460 .elementor-element.elementor-element-4f4e48d>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("https://tamalsen.dev/wp-content/uploads/2021/07/tamalsen-home-cover.jpg");
+    background-image: url(../uploads/hero_background.jpeg);
     background-position: center center;
-    background-size: cover
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(23, 23, 23, 0.8); 
 }
 
 .elementor-21460 .elementor-element.elementor-element-4f4e48d>.elementor-background-overlay {
     background-color: transparent;
-    background-image: linear-gradient(180deg,#00000012 60%,#1a191d 100%);
+    background-image: linear-gradient(180deg,#00000012 60%,#171717 100%);
     opacity: 1;
     transition: background .3s,border-radius .3s,opacity .3s
 }
@@ -150,14 +152,14 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-82668a7 {
 }
 
 .elementor-21460 .elementor-element.elementor-element-4df0904>.elementor-container {
-    max-width: 1240px
+    max-width: 1840px
 }
 
 .elementor-21460 .elementor-element.elementor-element-4df0904 {
     transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
     margin-top: -3px;
     margin-bottom: 0;
-    padding: 100px 50px 0
+    padding: 100px 0 0
 }
 
 .elementor-21460 .elementor-element.elementor-element-4df0904>.elementor-background-overlay {
@@ -299,7 +301,7 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-82668a7 {
 }
 
 .elementor-21460 .elementor-element.elementor-element-7fc38e6>.elementor-widget-container {
-    margin: -20px 0 0
+    margin: -300px 0 0
 }
 
 .elementor-21460 .elementor-element.elementor-element-3750356>.elementor-container {
@@ -432,7 +434,7 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-8dfc42c {
 }
 
 .elementor-21460 .elementor-element.elementor-element-36f7d8c {
-    margin-top: 100px;
+    margin-top: 40px;
     margin-bottom: 150px;
     padding: 0 50px
 }
@@ -767,7 +769,7 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-8dfc42c {
     }
 
     .elementor-21460 .elementor-element.elementor-element-7fc38e6>.elementor-widget-container {
-        margin: -50px 0 0
+        margin: -300px 0 0
     }
 
     .elementor-21460 .elementor-element.elementor-element-1e46132 .elementor-heading-title {
@@ -1052,7 +1054,7 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-8dfc42c {
     }
 
     .elementor-21460 .elementor-element.elementor-element-249bd7b {
-        width: 60%
+        width: 70%
     }
 
     .elementor-21460 .elementor-element.elementor-element-a1b9b56 {
