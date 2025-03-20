@@ -311,7 +311,7 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-82668a7 {
 .elementor-21460 .elementor-element.elementor-element-3750356 {
     margin-top: 10px;
     margin-bottom: 30px;
-    padding: 0 50px
+    padding: 100px 50px 0px 50px;
 }
 
 .elementor-21460 .elementor-element.elementor-element-1e46132 {
@@ -425,8 +425,9 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-8dfc42c {
 
 .elementor-21460 .elementor-element.elementor-element-5b38874 {
     margin-top: 0;
-    margin-bottom: 100px;
-    padding: 0 50px
+    margin-bottom: 50px;
+    padding: 0 50px;
+    padding-top: 60px;
 }
 
 .elementor-21460 .elementor-element.elementor-element-36f7d8c>.elementor-container {
@@ -435,8 +436,7 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-8dfc42c {
 
 .elementor-21460 .elementor-element.elementor-element-36f7d8c {
     margin-top: 40px;
-    margin-bottom: 150px;
-    padding: 0 50px
+    padding: 0 50px;
 }
 
 .elementor-21460 .elementor-element.elementor-element-339b1c4 {
@@ -467,7 +467,8 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-8dfc42c {
 }
 
 .elementor-21460 .elementor-element.elementor-element-a646450 .accordion:not(.outline) .accordionItem_title {
-    background-color: #490C86DE
+    /* background-color: #490C86DE */
+    background: linear-gradient(20deg, #002f37 20%, #2f4747 110%);
 }
 
 .elementor-21460 .elementor-element.elementor-element-a646450 .accordion.outline .accordionItem.active .accordionItem_title {
@@ -475,7 +476,8 @@ body.rtl .elementor-21460 .elementor-element.elementor-element-8dfc42c {
 }
 
 .elementor-21460 .elementor-element.elementor-element-a646450 .accordion:not(.outline) .accordionItem.active .accordionItem_title {
-    background-color: #740cdc
+    /* background-color: #740cdc */
+    background: linear-gradient(18deg, #2f4747 0%, #002f37 110%);
 }
 
 .elementor-21460 .elementor-element.elementor-element-a646450 .accordionItem_title h6 {
