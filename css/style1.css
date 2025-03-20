@@ -17709,7 +17709,8 @@ button.search-submit.btn-loading .ion {
     display: block;
     line-height: 2em;
     padding: 5px 20px;
-    position: relative
+    position: relative;
+    color: #fff;
 }
 
 .header.-mobile .menu>.nav-item a .has-submenu-icon {
@@ -17810,7 +17811,8 @@ button.search-submit.btn-loading .ion {
 .header.-mobile .mbl-overlay .copyright {
     font-weight: 400;
     font-size: .94rem;
-    margin-top: 20px
+    margin-top: 20px;
+    color: #fff;
 }
 
 .header.-mobile .mbl-overlay .select {
@@ -47270,7 +47272,9 @@ button.swiper-pagination-bullet {
 }
 
 .ion-md-close:before {
-    content: "\f2c0"
+    content: "\f2c0";
+    margin-top: 14px;
+    color: #fff;
 }
 
 .ion-md-close-circle:before {
