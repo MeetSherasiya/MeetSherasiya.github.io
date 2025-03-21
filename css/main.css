@@ -546,6 +546,7 @@ nav.pagination li .btn.active:hover,
 .page-preloader.percentage-preloader .sk-percentage {
     background-image: url(../uploads/hero_background.jpeg);
     opacity: 0.2;
+    background-size: cover;
 }
 
 
