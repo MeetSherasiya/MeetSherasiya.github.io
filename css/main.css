@@ -539,13 +539,15 @@ nav.pagination li .btn.active:hover,
 }
 
 .sk-percentage .sk-percentage-percent {
-    color: #66d9ed;
+    color: transparent;
 }
 
 .page-preloader:not(.percentage-preloader),
 .page-preloader.percentage-preloader .sk-percentage {
-    background-color: #0f0f0f;
+    background-image: url(../uploads/hero_background.jpeg);
+    opacity: 0.2;
 }
+
 
 .clb-subscribe-img {
     background-image: url('https://tamal.dev/wp-content/uploads/2019/10/oh__img100_small.jpg');
@@ -2224,8 +2226,4 @@ li>.clb-scroll-top {
 
 body{
     background: #171717;
-}
-
-#page {
-    display: none;
 }
