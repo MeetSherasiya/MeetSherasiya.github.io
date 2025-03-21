@@ -108,8 +108,8 @@ function setREVStartSize(e) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    setTimeout (() => {
-        document.getElementByUd('page').style.display = 'block';
+    setTimeout(() => {
+        document.getElementById('page').style.display = 'block';
     }, 1000);
     const marqueeWrap = document.querySelector(".marquee-list-wrap");
     const marqueeList = document.querySelector(".marquee-list");
