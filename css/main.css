@@ -2221,3 +2221,11 @@ li>.clb-scroll-top {
     height: auto;
     opacity: .75;
 }
+
+body {
+    background: #171717;
+}
+
+#page {
+    display: none;
+}
