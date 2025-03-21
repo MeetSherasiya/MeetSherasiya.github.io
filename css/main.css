@@ -481,6 +481,7 @@ nav.pagination li .btn.active:hover,
 .header.-mobile .nav .mbl-overlay-background {
     background-image: url(../uploads/side-bar.png);
     zoom: 1.9;
+    width: 80%;
 }
 
 @media (min-width: 766px) {
@@ -502,6 +503,7 @@ nav.pagination li .btn.active:hover,
 
 .header.-mobile .mbl-overlay-container {
     background: transparent;
+    width: 70%;
 }
 
 .header,
@@ -2109,22 +2111,53 @@ li>.clb-scroll-top {
         width: 85%;
     }
 
-    .col-lg-4 {
+    .bg-light .d-flex {
         flex-direction: column;
+    }
+
+    .bg-light .float-start {
+        padding-bottom: 20px;
     }
 
     .bg-light .row {
         justify-content: center;
     }
 
-    .bg-light .d-flex {
+    .ohio-recent-projects-sc .unstyled {
+            display: flex;
+            flex-direction: column;
+    }
+
+    .education-card {
+        padding-left: 0px;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 992px) {
+    .contact .mt-4 {
         flex-direction: column;
     }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    .bg-light .row {
+        padding: 30px 60px !important;
+    }
+    
 }
 
 @media (max-width: 512px) {
     #education {
         padding-top: 10px;
+    }
+}
+
+@media (max-width: 690px) {
+    .contact .mt-2 {
+        padding: 0px 50px;
     }
 }
 
