@@ -2042,7 +2042,7 @@ li>.clb-scroll-top {
     .education-card {
         max-width: 380px;
         justify-self: anchor-center;
-        padding-left: 40px;
+        padding: 10px;
     }
 }
 
@@ -2227,4 +2227,10 @@ li>.clb-scroll-top {
 
 body{
     background: #171717;
+}
+
+@media (max-width: 768px) {
+    .bg-light .d-flex{
+        flex-direction: column;
+    }
 }
