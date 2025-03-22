@@ -16622,7 +16622,8 @@ button.search-submit.btn-loading .ion {
     }
 
     .header .mobile-hamburger.-left {
-        margin-right: .6rem
+        margin-right: .6rem;
+        position: fixed;
     }
 
     .header .mobile-hamburger.-right {
@@ -42061,7 +42062,8 @@ button.swiper-pagination-bullet {
 
 .elementor-widget-image img {
     vertical-align: middle;
-    display: inline-block
+    display: inline-block;
+    filter: brightness(0) invert(1);
 }
 
 /*! elementor - v3.24.0 - 09-10-2024 */

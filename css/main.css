@@ -544,7 +544,7 @@ nav.pagination li .btn.active:hover,
 
 .page-preloader:not(.percentage-preloader),
 .page-preloader.percentage-preloader .sk-percentage {
-    background-image: url(../uploads/hero_background.jpeg);
+    background-image: url(../uploads/hero_background.webp);
     opacity: 0.2;
     background-size: cover;
 }
@@ -1881,7 +1881,7 @@ li>.clb-scroll-top {
     right: 10px;
     width: 268px;
     height: 224px;
-    background-image: url(../uploads/dotted_light.png);
+    background-image: url(../uploads/dotted_light.webp);
     background-repeat: no-repeat;
 }
 
@@ -1892,8 +1892,20 @@ li>.clb-scroll-top {
     padding-top: 90px;
     padding-bottom: 30px;
     overflow: hidden;
-    width: 100vw;
-    max-width: 100%;
+    width: 130vw;
+    max-width: 130%;
+}
+
+@media (max-width:1024px) {
+    .marquee-section{
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 1024px) {
+    .elementor-21460 .elementor-element.elementor-element-3750356 {
+        padding-top: 0px;
+    }
 }
 
 .marquee-wrap {
@@ -2056,7 +2068,7 @@ li>.clb-scroll-top {
     padding-top: 40px;
     margin-top: 40px;
     position: relative;
-    background-image: url(../uploads/hire-me.png);
+    background-image: url(../uploads/hire-me.webp);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -2233,4 +2245,36 @@ body{
     .bg-light .d-flex{
         flex-direction: column;
     }
+}
+
+.main-title-border::before {
+    display: inline-block;
+    margin-top: -20px;
+    vertical-align: middle;
+    content: "";
+    background-color: #d0d0d0;
+    width: 30px;
+    height: 1px;
+}
+
+.main-title-border::after {
+    display: inline-block;
+    margin-top: -20px;
+    vertical-align: middle;
+    content: "";
+    background-color: #d0d0d0;
+    width: 30px;
+    height: 1px;
+}
+
+.contact h2, #education h2 {
+    margin-bottom: 20px;
+}
+
+.contact .main-title-border {
+    padding-bottom: 30px;
+}
+
+.ion-md-add::before, .ion-md-remove:before {
+    margin-top: 10px;
 }

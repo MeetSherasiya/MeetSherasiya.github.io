@@ -6,19 +6,19 @@ var dataLayer_content = {
 };
 dataLayer.push(dataLayer_content);
 
-// (function (w, d, s, l, i) {
-//     w[l] = w[l] || []; 
-//     w[l].push({
-//         'gtm.start': new Date().getTime(), 
-//         event: 'gtm.js'
-//     }); 
-//     var f = d.getElementsByTagName(s)[0],
-//         j = d.createElement(s), 
-//         dl = l != 'dataLayer' ? '&l=' + l : ''; 
-//     j.async = true; 
-//     j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; 
-//     f.parentNode.insertBefore(j, f);
-// })(window, document, 'script', 'dataLayer', 'GTM-TM6G5JD');
+(function (w, d, s, l, i) {
+    w[l] = w[l] || []; 
+    w[l].push({
+        'gtm.start': new Date().getTime(), 
+        event: 'gtm.js'
+    }); 
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), 
+        dl = l != 'dataLayer' ? '&l=' + l : ''; 
+    j.async = true; 
+    j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl; 
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-TM6G5JD');
 
 // Lazy Load Videos
 document.addEventListener("DOMContentLoaded", function () {
@@ -55,11 +55,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Preload Image
-var link = document.createElement("link");
-link.rel = "preload";
-link.as = "image";
-link.href = "uploads/hello-world-html-code.png";
-document.head.appendChild(link);
+// var link = document.createElement("link");
+// link.rel = "preload";
+// link.as = "image";
+// link.href = "uploads/hello-world-html-code.webp";
+// document.head.appendChild(link);
 
 // Slider Revolution Responsive Sizing
 function setREVStartSize(e) {
