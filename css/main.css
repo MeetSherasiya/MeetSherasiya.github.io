@@ -1855,8 +1855,9 @@ li>.clb-scroll-top {
 /* TEMPORARY */
 .ohio-project-item.vc_col-lg-4 .portfolio-item img {
     width: 100%;
-    height: 100%;
-    max-height: 405px;
+    height: 225px;
+    max-height: 225px;
+    object-fit: cover;
 }
 
 .ohio-project-item.vc_col-lg-8 .portfolio-item img {
@@ -1867,10 +1868,55 @@ li>.clb-scroll-top {
 }
 
 .header .branding .logo img {
-    max-width: 182px;
-    width: 100%;
+    max-width: 300px;
+    width: 300px;
     height: 100%;
     max-height: 40px;
+}
+
+@media  (min-width: 1250px) and (max-width: 1500px) {
+    .header .branding .logo img {
+        max-width: 200px;
+        width: 300px;
+        height: 100%;
+        max-height: 40px;
+    }
+}
+
+@media (min-width: 930px) and  (max-width: 1250px) {
+    .header .branding .logo img {
+        max-width: 120px;
+        width: 300px;
+        height: 100%;
+        max-height: 80px;
+        content: url("../uploads/fav_icon_2.svg"); 
+    }
+}
+
+@media (min-width:768px) and (max-width: 930px) {
+    .header .branding .logo img {
+        display: none !important;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .header .branding {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header .branding {
+        margin-left: 70px;
+    }
+
+    .header .branding .logo img {
+        max-width: 80px;
+        width: 300px;
+        height: 100%;
+        max-height: 80px;
+        content: url("../uploads/fav_icon.svg");
+    }
 }
 
 .dotted-bg::before {

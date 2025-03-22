@@ -13,7 +13,7 @@
             if ((!Clb.isMobileMenu && fixed.enabled && !fixed.value) || (Clb.isMobileMenu && fixed.mobileEnabled && !fixed.mobileValue)) {
                 if (Clb.isMobileMenu) { fixed.mobileValue = true; } else { fixed.value = true; }
                 Clb.header.addClass('-sticky')
-                Clb.logo.css('display', 'none'); Clb.mobileLogo.css('display', 'none'); Clb.logoForOnepage.css('display', 'none'); if (Clb.isMobileMenu && Clb.fixedMobileLogo.length) { Clb.fixedMobileLogo.css('display', 'flex'); } else { Clb.fixedLogo.css('display', 'flex'); }
+                Clb.logo.css('display', 'block'); Clb.logo.css('width', '20%'); Clb.logo.css('height', '40px'); Clb.mobileLogo.css('display', 'none'); Clb.logoForOnepage.css('display', 'none'); if (Clb.isMobileMenu && Clb.fixedMobileLogo.length) { Clb.fixedMobileLogo.css('display', 'flex'); } else { Clb.fixedLogo.css('display', 'flex'); }
             }
         } else if (fixed.value || fixed.mobileValue) { fixed.value = false; fixed.mobileValue = false; Clb.header.removeClass('-sticky'); Clb.fixedLogo.css('display', ''); Clb.fixedMobileLogo.css('display', ''); if (Clb.isMobileMenu && Clb.mobileLogo.length) { Clb.logo.css('display', 'none'); Clb.logoForOnepage.css('display', 'none'); Clb.mobileLogo.css('display', 'flex'); } else { Clb.logo.css('display', 'flex'); Clb.logoForOnepage.css('display', ''); Clb.mobileLogo.css('display', 'none'); } }
         if ($(document).scrollTop() > fixed.initialOffset + 50) { Clb.header.addClass('showed'); } else { Clb.header.removeClass('showed'); }
