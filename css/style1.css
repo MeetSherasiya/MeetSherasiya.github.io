@@ -17094,7 +17094,7 @@ button.search-submit.btn-loading .ion {
 
 .clb-page-headline .clb-title {
     margin: 10px 0;
-    max-width: 60%;
+    max-width: 90%;
     display: inline-block;
     text-align: inherit
 }
@@ -17193,7 +17193,7 @@ button.search-submit.btn-loading .ion {
 
 @media screen and (max-width: 768px) {
     .clb-page-headline {
-        min-height:30vh;
+        min-height:20vh;
         margin-bottom: -15px
     }
 
@@ -17316,6 +17316,7 @@ button.search-submit.btn-loading .ion {
 }
 
 .site-footer .site-info-holder {
+    border-top: 1px solid rgba(136, 136, 136, .65);
     padding-top: 3.4vh;
     padding-bottom: 3.4vh
 }
@@ -23581,7 +23582,7 @@ body:not(.dark-scheme) .site-footer .widget_ohio_widget_logo .theme-logo .dark-s
 }
 
 .project-page.layout-type7 .project-page-content {
-    padding-bottom: 7.2vh;
+    padding-bottom: 0px;
     margin: 0
 }
 

@@ -1833,7 +1833,7 @@ li>.clb-scroll-top {
 }
 
 .header.-sticky.showed .header-wrap {
-    height: 60px;
+    height: 80px;
 }
 
 .header.-sticky.showed .nav-container .menu span {
@@ -2323,4 +2323,31 @@ body{
 
 .ion-md-add::before, .ion-md-remove:before {
     margin-top: 10px;
+}
+
+.list-sub-header{
+    color: #ffffff;
+}
+
+ol ::marker {
+    color: #ffffff;
+}
+
+.sticky-nav-holder{
+    background: linear-gradient(18deg, #2f4747 0%, #002f37 110%);
+}
+
+.sticky-nav-holder .sticky-nav_heading, .sticky-nav-holder, .sticky-nav-holder .heading-sm{
+    color: #fff !important;
+}
+
+.sticky-nav-holder svg{
+    margin-top: 14px;
+}
+
+@media (max-width: 760px) {
+    .sticky-nav-holder {
+        height: 20%;
+        margin: 0px 20px;
+    }
 }
