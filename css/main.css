@@ -2351,3 +2351,7 @@ ol ::marker {
         margin: 0px 20px;
     }
 }
+
+.elementor-subheading-title {
+    line-height: inherit;
+}
